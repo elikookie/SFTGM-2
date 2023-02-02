@@ -6,5 +6,5 @@ from flask import render_template
 
 #This is a view which will be returned in response to a request
 def index():
-    user = {'username': 'Put your name here'}
+    user = {'username': 'Elitsa'}
     return render_template('index.html', title='Lab Class Week 1', user=user)
