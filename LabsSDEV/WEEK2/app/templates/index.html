@@ -1,21 +1,14 @@
-<!doctype html>
-<html>
-    <head>
-        {% if title %}
-        <title>{{ title }} - Lab Class Week TWO </title>
-        {% else %}
-        <title>Welcome to Lab Class Week TWO!</title>
-        {% endif %}
-    </head>
-    <body>
-        {% if user.username %}
-        <h1>Hello, {{ user.username }}!</h1>
-        {% else %}
-        <form action="{{ url_for('data_input')}}" method="post">
-            <label for="username">Enter username:</label>
-            <input type="text" id="username" name = "username">
-            <input type="submit" value="Submit">
-        </form>
-        {% endif %}
-    </body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% if title == "Lab TWO" %}
+    <h1>Hello, {{ user.username }}!</h1>
+    {% else %}
+    <h1>Welcome, {{ user.username }}!</h1>
+    {% endif %}
+    {% for labclass in labclasses %}
+    <div><p> The lab in week number <i>{{ labclass.weekno }}</i>
+    was about : <b>{{ labclass.content }}</b></p></div>
+    {% endfor %}
+({% endblock %}
