@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8" />
         <title>{{ title }}</title>
         <link rel="stylesheet" href="{{ url_for('static', filename= 'css/site.css') }}">
@@ -11,6 +12,7 @@
             <a href="/" class=”navbar-brand”>Hello Week 3</a>
             <a href="{{ url_for('index') }}" class="navbar-item">Home</a>
             <a href="{{ url_for('about') }}" class="navbar-item">About</a>
+            <a href="{{ url_for('test') }}" class="navbar-item">Test</a>
         </div>
 
         <div class="body-content">
