@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d371650-799b-483f-9f5a-3ae2c8ad7550" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LabsSDEV/WEEK3/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LabsSDEV/WEEK3/app/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LabsSDEV/WEEK3/app/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LabsSDEV/WEEK3/app/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LabsSDEV/WEEK3/week3.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2LUwKg3ViypcREsU2AwpgE61Muv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/uni/2nd year/SFTGM 2/LabsSDEV"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d371650-799b-483f-9f5a-3ae2c8ad7550" name="Changes" comment="" />
+      <created>1675938906830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675938906830</updated>
+    </task>
+    <servers />
+  </component>
+</project>
