@@ -1,0 +1,70 @@
+# Translations template for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-04-05 15:44+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: templates/option1/index.html:21 templates/option2/index.html:24
+msgid "Start Bootstrap"
+msgstr ""
+
+#: templates/option1/index.html:25
+msgid "Home"
+msgstr ""
+
+#: templates/option1/index.html:26
+msgid "About"
+msgstr ""
+
+#: templates/option1/index.html:27
+msgid "Contact"
+msgstr ""
+
+#: templates/option1/index.html:37
+msgid "A warm welcome!"
+msgstr ""
+
+#: templates/option1/index.html:38
+msgid ""
+"Bootstrap utility classes are used to create this jumbotron since the old"
+" component has been removed from the framework. Why create custom CSS "
+"when you can use utilities?"
+msgstr ""
+
+#: templates/option1/index.html:39
+msgid "Call to action"
+msgstr ""
+
+#: templates/option2/index.html:28
+msgid "Sign Up"
+msgstr ""
+
+#: templates/option2/index.html:29
+msgid "Log In"
+msgstr ""
+
+#: templates/option2/index.html:38
+msgid "One Page Wonder"
+msgstr ""
+
+#: templates/option2/index.html:39
+msgid "Will Rock Your Socks Off"
+msgstr ""
+
+#: templates/option2/index.html:40
+msgid "Learn More"
+msgstr ""
+

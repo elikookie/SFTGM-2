@@ -1,0 +1,67 @@
+# French translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-04-05 15:23+0100\n"
+"PO-Revision-Date: 2023-04-05 15:23+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+msgid "Start Bootstrap"
+msgstr "Démarrer Bootstrap"
+
+#: templates/option1/index.html:25
+msgid "Home"
+msgstr "Page d'accueil"
+
+#: templates/option1/index.html:26
+msgid "About"
+msgstr "À propos de la page"
+
+#: templates/option1/index.html:27
+msgid "Contact"
+msgstr "Contact"
+
+#: templates/option2/index.html:28
+msgid "Sign Up"
+msgstr "S'inscrire"
+
+#: templates/option2/index.html:29
+msgid "Log In"
+msgstr "Connexion"
+
+#: templates/option1/index.html:37
+msgid "A warm welcome!"
+msgstr "Un accueil chaleureux!"
+
+#: templates/option1/index.html:38
+msgid ""
+"Bootstrap utility classes are used to create this jumbotron since the old component has been removed from the framework. Why create custom CSS when you can use utilities?"
+msgstr "Les classes utilitaires Bootstrap sont utilisées pour créer ce jumbotron puisque l'ancien composant a été supprimé du framework. Pourquoi créer un CSS personnalisé quand vous pouvez utiliser des utilitaires ?"
+
+#: templates/option1/index.html:39
+msgid "Call to action"
+msgstr "Appel à l'action"
+
+
+#: templates/option2/index.html:38
+msgid "One Page Wonder"
+msgstr "Merveille d'une page"
+
+#: templates/option2/index.html:39
+msgid "Will Rock Your Socks Off"
+msgstr "Va basculer vos chaussettes"
+
+#: templates/option2/index.html:40
+msgid "Learn More"
+msgstr "Apprendre encore plus"
