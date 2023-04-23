@@ -37,3 +37,21 @@ function toggleChildren() {
       console.log('Selected prefecture:', selectedValue);
     });
   });
+
+function showTooltip(event) {
+  const tooltip = document.getElementById("map-tooltip");
+  const prefecture = event.target.getAttribute("data-prefecture");
+  tooltip.style.opacity = 1; // Use opacity instead of visibility
+  tooltip.textContent = prefecture;
+}
+
+function moveTooltip(event) {
+  const tooltip = document.getElementById("map-tooltip");
+  tooltip.style.left = event.pageX + 20 + "px";
+  tooltip.style.top = event.pageY + 20 + "px";
+}
+
+function hideTooltip() {
+  const tooltip = document.getElementById("map-tooltip");
+  tooltip.style.opacity = 0; // Use opacity instead of visibility
+}

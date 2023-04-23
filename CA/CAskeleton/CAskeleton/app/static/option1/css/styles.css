@@ -3015,10 +3015,11 @@ textarea.form-control-lg {
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
+    color: #ff9900;
   }
 }
 .btn:hover {
-  color: #212529;
+  color: #e68a00;
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
@@ -3031,13 +3032,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #ff9900;
+  border-color: #ff9900;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: #ffcc80;
+  border-color: #ffcc80;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -4506,7 +4507,6 @@ textarea.form-control-lg {
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.55);
-  border-color: rgba(255, 255, 255, 0.1);
 }
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -5792,6 +5792,7 @@ textarea.form-control-lg {
   word-wrap: break-word;
   opacity: 0;
 }
+
 .tooltip.show {
   opacity: 0.9;
 }
@@ -12202,13 +12203,41 @@ textarea.form-control-lg {
     max-width: 300px; /* You can adjust this value to control the maximum width of the map */
     width: 100%; /* Set the width to 100% for responsiveness */
 }
-
+#map-column{
+padding-left: 100px;
+}
 .map-container svg {
     display: block;
     width: 100%;
     height: auto;
 }
 
+.prefecture {
+fill: #ffe6cc
+}
+.prefecture:hover {
+    fill: #ffc180
+}
+
 .selected {
   fill: #FFA500; /* Change this to the desired color when a prefecture is selected */
+}
+
+.form-shared__prepend {
+  display: flex;
+  align-items: center;
+}
+
+.form-shared__divider {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.form-shared__select {
+  padding-left: 10%;
+}
+
+.custom-input-group {
+  display: flex;
+  align-items: stretch;
 }
