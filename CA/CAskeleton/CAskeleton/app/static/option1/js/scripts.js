@@ -17,6 +17,7 @@ function toggleChildren() {
 }
 
 
+const prefectures = document.querySelectorAll('.prefecture');
 
 // Add event listeners to each prefecture
 prefectures.forEach(prefecture => {

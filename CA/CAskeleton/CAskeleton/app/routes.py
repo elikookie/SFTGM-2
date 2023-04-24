@@ -12,7 +12,7 @@ def start():
 
 @app.route('/index')
 def index():
-    return (render_template(session['option']+"/index.html"))
+    return (render_template(session['option'] + "/index.html", opt=session['option']))
 
 
 @app.route('/about')
