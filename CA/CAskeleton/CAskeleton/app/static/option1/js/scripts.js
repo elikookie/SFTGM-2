@@ -16,27 +16,26 @@ function toggleChildren() {
   }
 }
 
-  // Get all the prefecture elements
-  const prefectures = document.querySelectorAll('.prefecture');
 
-  // Add event listeners to each prefecture
-  prefectures.forEach(prefecture => {
-    prefecture.addEventListener('click', (event) => {
-      // Remove the 'selected' class from any previously selected element
-      const previouslySelected = document.querySelector('.selected');
-      if (previouslySelected) {
-        previouslySelected.classList.remove('selected');
-      }
 
-      // Add the 'selected' class to the clicked element
-      event.currentTarget.classList.add('selected');
+// Add event listeners to each prefecture
+prefectures.forEach(prefecture => {
+  prefecture.addEventListener('click', (event) => {
+    // Remove the 'selected' class from any previously selected element
+    const previouslySelected = document.querySelector('.selected');
+    if (previouslySelected) {
+      previouslySelected.classList.remove('selected');
+    }
 
-      // Store the selected value, e.g., in a hidden input field
-      const selectedValue = event.currentTarget.id;
-      // Do something with the selected value, e.g., update a form field
-      console.log('Selected prefecture:', selectedValue);
-    });
+    // Add the 'selected' class to the clicked element
+    event.currentTarget.classList.add('selected');
+
+    // Store the selected value, e.g., in a hidden input field
+    const selectedValue = event.currentTarget.id;
+    // Do something with the selected value, e.g., update a form field
+    console.log('Selected prefecture:', selectedValue);
   });
+});
 
 function showTooltip(event) {
   const tooltip = document.getElementById("map-tooltip");
@@ -54,4 +53,16 @@ function moveTooltip(event) {
 function hideTooltip() {
   const tooltip = document.getElementById("map-tooltip");
   tooltip.style.opacity = 0; // Use opacity instead of visibility
+}
+
+function selectPrefecture(event) {
+    const selectedPrefecture = event.target.getAttribute('data-prefecture');
+    const prefectureSelect = document.getElementById('prefecture');
+
+    for (let i = 0; i < prefectureSelect.options.length; i++) {
+        if (prefectureSelect.options[i].value === selectedPrefecture) {
+            prefectureSelect.selectedIndex = i;
+            break;
+        }
+    }
 }
