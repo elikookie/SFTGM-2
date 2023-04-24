@@ -18,6 +18,11 @@
     <link href="{{ url_for('static', filename=opt+'/css/styles.css') }}" rel="stylesheet" />
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/2baa854690.js" crossorigin="anonymous"></script>
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -44,7 +49,51 @@
     <!-- Header-->
     <header>
         <div class="container px-lg-5">
-            <img src="{{ url_for('static', filename=opt+'/assets/hotelImage1.jpg') }}" class="img-fluid" alt="ホテルの画像" />
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ul>
+
+                <!-- Slides -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="{{ url_for('static', filename=opt+'/assets/hotelImage1.jpg') }}" width="100%"
+                            height="auto" alt="hotelImage" />
+                        <div class="carousel-caption">
+                            <h3>Image 1</h3>
+                            <p>Image 1 description</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{{ url_for('static', filename=opt+'/assets/hotelImage2.jpg') }}" width="100%"
+                            height="auto" alt="hotelImage" />
+                        <div class="carousel-caption">
+                            <h3>Image 2</h3>
+                            <p>Image 2 description</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{{ url_for('static', filename=opt+'/assets/hotelImage3.jpg') }}" width="100%"
+                            height="auto" alt="hotelImage" />
+                        <div class="carousel-caption">
+                            <h3>Image 3</h3>
+                            <p>Image 3 description</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
         </div>
     </header>
     <!-- Reservation block-->
