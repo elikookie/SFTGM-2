@@ -1,4 +1,4 @@
-# French translations for PROJECT.
+# Finnish translations for PROJECT.
 # Copyright (C) 2023 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
@@ -10,8 +10,8 @@ msgstr ""
 "POT-Creation-Date: 2023-04-05 15:23+0100\n"
 "PO-Revision-Date: 2023-04-05 15:23+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: fr\n"
-"Language-Team: fr <LL@li.org>\n"
+"Language: fi\n"
+"Language-Team: fi <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -20,48 +20,253 @@ msgstr ""
 msgid "Start Bootstrap"
 msgstr "Démarrer Bootstrap"
 
-#: templates/option1/index.html:25
-msgid "Home"
-msgstr "Page d'accueil"
+#: templates/option1/index.html:28
+msgid "Finnish Hotel"
+msgstr "Suomalainen Hotelli"
 
-#: templates/option1/index.html:26
-msgid "About"
-msgstr "À propos de la page"
+#: templates/option1/index.html:36
+msgid "Facilities"
+msgstr "Palvelut"
 
-#: templates/option1/index.html:27
-msgid "Contact"
-msgstr "Contact"
+#: templates/option1/index.html:39
+msgid "News"
+msgstr "Uutiset"
 
 #: templates/option2/index.html:28
 msgid "Sign Up"
-msgstr "S'inscrire"
+msgstr "Rekisteröidy"
 
-#: templates/option2/index.html:29
-msgid "Log In"
-msgstr "Connexion"
+#: templates/option2/index.html:42
+msgid "Contact"
+msgstr "Yhteystiedot"
 
-#: templates/option1/index.html:37
-msgid "A warm welcome!"
-msgstr "Un accueil chaleureux!"
+#: templates/option2/index.html:47
+msgid "Reservations"
+msgstr "Varaukset"
 
-#: templates/option1/index.html:38
-msgid ""
-"Bootstrap utility classes are used to create this jumbotron since the old component has been removed from the framework. Why create custom CSS when you can use utilities?"
-msgstr "Les classes utilitaires Bootstrap sont utilisées pour créer ce jumbotron puisque l'ancien composant a été supprimé du framework. Pourquoi créer un CSS personnalisé quand vous pouvez utiliser des utilitaires ?"
+#: templates/option2/index.html:66
+msgid "Example Carousel Text"
+msgstr "Esimerkki karusellitekstistä"
 
-#: templates/option1/index.html:39
-msgid "Call to action"
-msgstr "Appel à l'action"
+#: templates/option2/index.html:67
+msgid "Sample description for carousel image 1."
+msgstr "Esimerkkikuvaus karusellikuvan 1."
+
+#: templates/option2/index.html:73
+msgid "Example Carousel Text"
+msgstr "Esimerkki karusellitekstistä"
+
+#: templates/option2/index.html:74
+msgid "Sample description for carousel image 2."
+msgstr "Esimerkkikuvaus karusellikuvan 2."
+
+#: templates/option2/index.html:80
+msgid "Example Carousel Text"
+msgstr "Esimerkki karusellitekstistä"
+
+#: templates/option2/index.html:81
+msgid "Sample description for carousel image 3."
+msgstr "Esimerkkikuvaus karusellikuvan 3."
+
+#: templates/option2/index.html:93
+msgid "Next"
+msgstr "Seuraava"
+
+#: templates/option2/index.html:104
+msgid "Book with us"
+msgstr "Varaa meiltä"
+
+#: templates/option2/index.html:105
+msgid "Fill in the form below to reserve a room."
+msgstr "Täytä alla oleva lomake varataksesi huoneen."
+
+#: templates/option2/index.html:121
+msgid "Prefecture"
+msgstr "Maakunta"
+
+#: templates/option2/index.html:127
+msgid "Lapland"
+msgstr "Lappi"
+
+#: templates/option2/index.html:128
+msgid "Central Finland"
+msgstr "Keski-Suomi"
+
+#: templates/option2/index.html:129
+msgid "Northern Savonia"
+msgstr "Pohjois-Savo"
+
+#: templates/option2/index.html:130
+msgid "Kainuu"
+msgstr "Kainuu"
+
+#: templates/option2/index.html:131
+msgid "Northern Ostrobothnia"
+msgstr "Pohjois-Pohjanmaa"
+
+#: templates/option2/index.html:133
+msgid "Central Ostrobothnia"
+msgstr "Keski-Pohjanmaa"
+
+#: templates/option2/index.html:135
+msgid "Ostrobothnia"
+msgstr "Pohjanmaa"
+
+#: templates/option2/index.html:136
+msgid "Southern Ostrobothnia"
+msgstr "Etelä-Pohjanmaa"
+
+#: templates/option2/index.html:138
+msgid "Päijät-Häme"
+msgstr "Päijät-Häme"
+
+#: templates/option2/index.html:139
+msgid "Tavastia Proper"
+msgstr "Kanta-Häme"
+
+msgid "Pirkanmaa"
+msgstr "Pirkanmaa"
+
+#: templates/option2/index.html:141
+msgid "Kymenlaakso"
+msgstr "Kymenlaakso"
+
+#: templates/option2/index.html:142
+msgid "South Karelia"
+msgstr "Etelä-Karjala"
+
+#: templates/option2/index.html:143
+msgid "Southern Savonia"
+msgstr "Etelä-Savo"
+
+#: templates/option2/index.html:144
+msgid "North Karelia"
+msgstr "Pohjois-Karjala"
+
+#: templates/option2/index.html:145
+msgid "Finland Proper"
+msgstr "Varsinais-Suomi"
+
+#: templates/option2/index.html:146
+msgid "Satakunta"
+msgstr "Satakunta"
+
+#: templates/option2/index.html:147
+msgid "Uusimaa"
+msgstr "Uusimaa"
+
+#: templates/option2/index.html:185
+msgid "Check-Out"
+msgstr "Uloskirjautuminen"
+
+#: templates/option2/index.html:207
+msgid "Number of Rooms"
+msgstr "Huoneiden määrä"
+
+#: templates/option2/index.html:231
+msgid "Number of People"
+msgstr "Henkilöiden määrä"
+
+#: templates/option2/index.html:264
+msgid "10 ~ 12 years old"
+msgstr "10 ~ 12-vuotiaat"
+
+#: templates/option2/index.html:293
+msgid "7 ~ 9 years old"
+msgstr "7 ~ 9-vuotiaat"
+
+#: templates/option1/index.html:273
+msgid "Non-smoking"
+msgstr "Tupakoimaton"
+
+#: templates/option1/index.html:277
+msgid "Smoking"
+msgstr "Tupakointi"
+
+#: templates/option1/index.html:281
+msgid "None specified"
+msgstr "Ei määritelty"
+
+#: templates/option1/index.html:291
+msgid "Breakfast available"
+msgstr "Aamiainen saatavilla"
+
+#: templates/option1/index.html:309
+msgid "Promotions"
+msgstr "Tarjoukset"
+
+#: templates/option1/index.html:314
+msgid "Promotion 1"
+msgstr "Tarjous 1"
+
+#: templates/option1/index.html:315
+msgid "Description for Promotion 1"
+msgstr "Kuvaus tarjouksesta 1"
+
+#: templates/option1/index.html:320
+msgid "Promotion 2"
+msgstr "Tarjous 2"
+
+#: templates/option1/index.html:321
+msgid "Description for Promotion 2"
+msgstr "Kuvaus tarjouksesta 2"
+
+#: templates/option1/index.html:326
+msgid "Promotion 3"
+msgstr "Tarjous 3"
+
+#: templates/option1/index.html:327
+msgid "Description for Promotion 3"
+msgstr "Kuvaus tarjouksesta 3"
+
+#: templates/option1/index.html:339
+msgid "About Finnish Hotel"
+msgstr "Tietoa Suomalaisesta Hotellista"
+
+#: templates/option1/index.html:340
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu gravida velit. Praesent at urna justo."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu gravida velit. Praesent at urna justo."
+
+#: templates/option1/index.html:349
+msgid "Facilities"
+msgstr "Palvelut"
+
+#: templates/option1/index.html:350
+msgid "News"
+msgstr "Uutiset"
+
+#: templates/option1/index.html:351
+msgid "Contact"
+msgstr "Yhteystiedot"
+
+#: templates/option1/index.html:359
+msgid "Contact Us"
+msgstr "Ota yhteyttä"
+
+#: templates/option1/index.html:360
+msgid "Address: 123 Finnish St, Helsinki, Finland"
+msgstr "Osoite: 123 Suomalainenkatu, Helsinki, Suomi"
+
+#: templates/option1/index.html:361
+msgid "Phone: +358 123 456 789"
+msgstr "Puhelin: +358 123 456 789"
+
+#: templates/option1/index.html:362
+msgid "Email: info@finnishhotel.com"
+msgstr "Sähköposti: info@suomalainenhotelli.com"
+
+#: templates/option1/index.html:370
+msgid "© 2023 Finnish Hotel. All Rights Reserved."
+msgstr "© 2023 Suomalainen Hotelli. Kaikki oikeudet pidätetään."
 
 
-#: templates/option2/index.html:38
-msgid "One Page Wonder"
-msgstr "Merveille d'une page"
 
-#: templates/option2/index.html:39
-msgid "Will Rock Your Socks Off"
-msgstr "Va basculer vos chaussettes"
 
-#: templates/option2/index.html:40
-msgid "Learn More"
-msgstr "Apprendre encore plus"
+
+
+
+
+
+
+
+

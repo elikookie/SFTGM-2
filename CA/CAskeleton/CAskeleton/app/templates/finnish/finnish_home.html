@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-{% set opt = session["option"] %}
+{% set opt = session["finnish"] %}
 
 <head>
     <meta charset="utf-8" />
@@ -8,7 +8,8 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Finnish Hotel</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='finnish/assets/favicon.ico') }}" />
+
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->

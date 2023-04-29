@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-{% set opt = session["option"] %}
+{% set opt = session["japanese"] %}
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    {% with opt = session.japanese %}
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='japanese/assets/favicon.ico') }}" />
+    {% endwith %}
+
+
     <title>Hotel Website | Home</title>
     <!-- Font Japanese Noto Sans-->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
